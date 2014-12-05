@@ -1,6 +1,6 @@
 ## DockerSpiceLxde
 
-This repository contains **Dockerfile** of [Ubuntu Desktop (Xfce4)](http://lxde.org/) for [Docker](https://www.docker.com/)'s
+This repository contains **Dockerfile** of [Ubuntu Desktop (Xfce4)](http://xfce.org/) for [Docker](https://www.docker.com/)'s
 
 
 ### Base Docker Image
