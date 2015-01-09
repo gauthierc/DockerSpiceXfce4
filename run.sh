@@ -1,3 +1,4 @@
+#!/bin/bash
 SPICE_RES=${SPICE_RES:-"1280x960"}
 SPICE_LOCAL=${SPICE_LOCAL:-"fr_FR.UTF-8"}
 TIMEZONE=${TIMEZONE:-"Europe/Paris"}
