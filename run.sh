@@ -22,5 +22,6 @@ if [ "$SUDO" != "NO" ]; then
         sed -i "s/^\(sudo:.*\)/\1$SPICE_USER/" /etc/group
 fi
 cd /home/$SPICE_USER
-su $SPICE_USER -c "/usr/bin/Xorg -config /etc/X11/spiceqxl.xorg.conf -logfile  /home/$SPICE_USER/.Xorg.2.log :2 &" 2> /dev/null
+/etc/init.d/dbus start
+/usr/bin/Xorg -config /etc/X11/spiceqxl.xorg.conf -logfile  /home/$SPICE_USER/.Xorg.2.log :2 & 2> /dev/null
 su $SPICE_USER -c "DISPLAY=:2 /usr/bin/xfce4-session"
