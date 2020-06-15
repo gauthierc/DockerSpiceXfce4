@@ -5,7 +5,7 @@ This repository contains **Dockerfile** of [Ubuntu Desktop (Xfce4)](http://xfce.
 
 ### Base Docker Image
 
-* [ubuntu:14.04](https://registry.hub.docker.com/_/ubuntu/)
+* [ubuntu:20.04](https://registry.hub.docker.com/_/ubuntu/)
 
 
 ### Installation
